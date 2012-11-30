@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="paizo-extensions" basedir="." default="jar">
+    <target name="hello">
+    </target>
+</project>
+
