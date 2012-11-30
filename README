@@ -1,4 +1,5 @@
-These are extensions/scripts to enhance someone's experience on the forums on paizo.com:
+These are extensions/scripts to enhance someone's experience on the forums on
+paizo.com:
 
 
 UPDATED: Nov 2012
@@ -21,7 +22,7 @@ Keyword Autolink - Link key words (gaming terms) to d20pfsrd.com
 Link Underline - Add CSS styling that forces all hyperlinks to be underlined
     paizo_link_underline.user.js
 
-Play-by-Post Character Info Popup - Provides info popup for Play-by-Post characters
+Play-by-Post Character Info Popup - Provides info popup for Play-by-Post
     paizo_pbp_stats_v1.user.js
 
 
