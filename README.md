@@ -1,15 +1,12 @@
-These are extensions/scripts to enhance someone's experience on the forums on
-paizo.com:
+# paizo
+These are extensions/scripts to enhance one's experience on the
+messageboards at http://paizo.com/
 
-
-UPDATED: Nov 2012
------------------
+## Mar 2014
 Ignore Users - Hide posts from low signal-to-noise users
-    paizo_ignore_v4.user.js
+    paizo_ignore.user.js
 
-
-UPDATED: Dec 2011
------------------
+## Dec 2011
 Embed Images - Display image and YouTube links embedded inline
     paizo_embed_image_v1.user.js
 
@@ -25,11 +22,9 @@ Link Underline - Add CSS styling that forces all hyperlinks to be underlined
 Play-by-Post Character Info Popup - Provides info popup for Play-by-Post
     paizo_pbp_stats_v1.user.js
 
-
-All extensions/scripts work with Google Chrome and Mozilla Firefox.
-
-Chrome users must download the extension to their computer and then drag and
-drop the file into Chrome's extensions window.
+## Requirements
+All extensions/scripts work with Mozilla Firefox.
 
 Firefox users must install the Greasemonkey Plug-In in order to use scripts.
 URL: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+
