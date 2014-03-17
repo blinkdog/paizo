@@ -4,7 +4,7 @@
 
 // ==UserScript==
 // @name           paizo_ignore
-// @version        5
+// @version        6
 // @updateURL      http://pages.cs.wisc.edu/~meade/greasemonkey/paizo_ignore.user.js
 // @namespace      http://pages.cs.wisc.edu/~meade/greasemonkey/
 // @description    Improve signal-to-noise ratio on Paizo's messageboards
@@ -21,6 +21,8 @@
 
 // make sure our script runs in its own little pocket universe
 (function() {
+// http://wiki.greasespot.net/Third-Party_Libraries#Potential_conflict
+this.$ = this.jQuery = jQuery.noConflict(true);
 
 //---------------------------------------------------------------------------
 
