@@ -4,7 +4,7 @@
 
 // ==UserScript==
 // @name           paizo_ignore
-// @version        6
+// @version        7
 // @updateURL      http://pages.cs.wisc.edu/~meade/greasemonkey/paizo_ignore.user.js
 // @namespace      http://pages.cs.wisc.edu/~meade/greasemonkey/
 // @description    Improve signal-to-noise ratio on Paizo's messageboards
@@ -13,7 +13,6 @@
 // @match          https://paizo.com/*
 // @match          https://*.paizo.com/*
 // @require        http://code.jquery.com/jquery-2.1.0.min.js
-// @require        https://userscripts.org/scripts/source/145813.user.js
 // @grant          none
 // ==/UserScript==
 
@@ -23,6 +22,16 @@
 (function() {
 // http://wiki.greasespot.net/Third-Party_Libraries#Potential_conflict
 this.$ = this.jQuery = jQuery.noConflict(true);
+
+//---------------------------------------------------------------------------
+
+var GM_getValue = function GM_getValue(key, def) {
+    return localStorage[key] || def;
+};
+
+var GM_setValue = function GM_setValue(key, value) {
+    return localStorage[key] = value;
+};
 
 //---------------------------------------------------------------------------
 
